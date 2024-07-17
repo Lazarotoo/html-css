@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "bebas neue regular";
+    src: url("fontes/bebas-neue-regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "bebas neue";
+    src: url("fontes/BebasNeue-Regular.otf") format("opentype");
+    
+}
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format("opentype");
+
+
+}    
+
+body {
+    background-color: #84E1AD;
+}
+
+
+
+header {
+    background: linear-gradient(to top, #1A5C38, #3DDA84);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    margin: none;
+    
+}
+
+header > h1 {
+    font-family: "bebas neue regular";
+    text-align: center;
+    text-justify: auto;
+    text-shadow: 1px 1px 1px black;
+    font-weight: lighter;
+    
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+    text-align: left;
+    padding: 20px 10px 10px 15px;
+    margin-right: 10px;
+
+    color: white;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    padding: 30px 20px 15px 20px;
+    width: 71%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.74);
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+main > h1 {
+    font-family: "idroid";
+    font-size: larger;
+    padding-bottom: 10px;
+    color: #1A5C38;
+}
+
+main > h2 {
+    font-family: "idroid";
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+    color: #1A5C38;
+    background: linear-gradient(to right, #84e1ac6b, white )
+    
+}
+
+article > img {
+    width: 100%;
+}
+
+article > p > a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+#dandroids {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+b {
+    color: green;
+}
+
+.bugdroid {
+    text-align: center;
+}
+    
+
+.video iframe {
+    width: 100%;
+    height: 800px;
+    padding: none;
+    text-align: center;
+    margin: none;
+    background-color: #1A5C38;
+}
+
+.video {
+    margin: 0;
+    border: 0;
+    padding: 20px 20px 20px 20px;
+    background-color: #1A5C38;
+}
+
+aside {
+margin: none;
+padding: none;
+border: none;
+background-color: #1A5C38;
+
+}
+
+.lista {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.lista li {
+padding: 10px;
+background-color: #84E1AD;
+}
+
+.lista h3 {
+ background-color: #3DDA84;
+ color: white;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ margin: 0;
+ padding: 10px;
+ width: 100%;
+}
