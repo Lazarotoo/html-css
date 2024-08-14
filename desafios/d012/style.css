@@ -52,11 +52,39 @@ p > a {
 .imagem1 {
     font-family: var(--fonte3);
     background-image: url(background001.jpg);
-    background-position: center center;
+    background-position: center right;
+    background-size: 150%;
+    width: auto;
+    height: 667px;
+    
+
+}
+
+.normal > p {
+    padding-bottom: 1px;
+
 }
 
 .imagem2 {
     font-family: var(--fonte3);
     background-image: url(background002.jpg);
     background-position: center center;
+}
+
+footer {
+    background-color: black;
+    font: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
